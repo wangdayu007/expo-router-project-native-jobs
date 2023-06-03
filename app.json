@@ -5,6 +5,17 @@
       "bundler": "metro"
     },
     "name": "expo-router-project",
-    "slug": "expo-router-project"
+    "slug": "expo-router-project",
+    "extra": {
+      "eas": {
+        "projectId": "d34703bb-f095-479a-9908-4f7fa32b7e27"
+      }
+    },
+    "android": {
+      "package": "com.dva007.exporouterproject"
+    },
+    "ios": {
+      "bundleIdentifier": "com.dva007.exporouterproject"
+    }
   }
 }

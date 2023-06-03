@@ -89,7 +89,7 @@ const JobDetails = () => {
         }}
       />
 
-      <>
+      {/* <> */}
         <ScrollView showsVerticalScrollIndicator={false}
           refreshControl={
             <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
@@ -121,7 +121,7 @@ const JobDetails = () => {
         </ScrollView>
 
         <JobFooter url={data[0]?.job_google_link ?? 'https://careers.google.com/jobs/results/'} />
-      </>
+      {/* </> */}
     </SafeAreaView>
   );
 };
